@@ -1,5 +1,5 @@
 # cnslab_app
-Assessment app: Login app + Firebase Authentication using Kotlin
+Assessment app: Login app + Firebase Real-Time Database storage using Kotlin
 
 Setup-Instructions:
 Ensure that you have Java compatibility set to jdk11
