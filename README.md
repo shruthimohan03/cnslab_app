@@ -5,7 +5,7 @@ Setup-Instructions:
 Ensure that you have Java compatibility set to jdk11
 
 First Layout: Login Page:
-- 2 input fields: username and password is used
+- DESIGN: 2 input fields: username and password; 1 login button
 - Validation for username and password is done as well
     -for username: minimum length must be 4 and no spaces are allowed
     -for password: minimum length must be 8 and use of alphanumerics, uppercases, and special characters are mandatory
@@ -13,4 +13,8 @@ First Layout: Login Page:
 - If username and password are of proper pattern but are not correct credentials then the message 'Login Unsuccessful' pops up below.
 - If the pattern and credentials are satisfied, the message 'Login Successful' pops up below and is rendered to the Home Screen
 
-S
+Second Layout: Information Page:
+- DESIGN: 3 input fields: first name, last name, and email; 1 submit button
+- The given details are sent to the Firebase's Real-Time Database and stored.
+- If the details are stored successfully, a success message is shown. Else an unsuccessful message is shown.
+  
